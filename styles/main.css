@@ -8,14 +8,17 @@
 }
 .header {
     display: flex;
-    background-color: #c7e752;
+    background-color:#c7e752 ;
 }
 .headerContainer{
     margin-left: 100px;
+    margin-bottom: 50px;
 
 }
 .fishCard{
     margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 .containerLeft{
     flex-basis: 75%;
@@ -28,4 +31,25 @@
 .lakeMartinImage{
     max-width: 200%;
     height:auto;
+}
+.navLink{
+    font-size: 3em;
+}
+.footer{
+    background-color: #c7e752 ;
+    
+}
+.title{
+    font-size: ;
+}
+.quoteCard{
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.locationCard{
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.body{
+    background-color: #c7e752;
 }
