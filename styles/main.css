@@ -1,0 +1,31 @@
+.crappieImg{
+    max-width: 50%;
+    height: auto;
+}
+.contentContainer{
+    display: flex;
+    background-color: #66ccff;
+}
+.header {
+    display: flex;
+    background-color: #c7e752;
+}
+.headerContainer{
+    margin-left: 100px;
+
+}
+.fishCard{
+    margin-bottom: 100px;
+}
+.containerLeft{
+    flex-basis: 75%;
+}
+
+.containerRight{
+    background-color: seagreen;
+    flex-basis: 25%;
+}
+.lakeMartinImage{
+    max-width: 200%;
+    height:auto;
+}
