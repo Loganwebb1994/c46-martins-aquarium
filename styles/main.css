@@ -9,16 +9,15 @@
 .header {
     display: flex;
     background-color:#c7e752 ;
+    align-content: flex-end;
 }
 .headerContainer{
-    margin-left: 100px;
-    margin-bottom: 50px;
-
+margin-left: 100px;
+margin-top:100px;
 }
 .fishCard{
-    margin-bottom: 100px;
-    margin-top: 100px;
-    margin-left: 100px;
+    align-content: space-between;
+    background-color: white
 }
 .containerLeft{
     flex-basis: 75%;
@@ -52,4 +51,7 @@
 }
 .body{
     background-color: #c7e752;
+}
+.containerLeft__fishList{
+    display: flex;
 }
