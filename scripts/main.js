@@ -7,6 +7,7 @@ import {locationList} from "/scripts/Locations/LocationList.js"
 
 import{tipList} from "/scripts/Tips/TipList.js"
 
+
 fishList();
 quoteList();
 locationList()
