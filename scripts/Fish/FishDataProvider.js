@@ -4,7 +4,7 @@ const fishCollection =[
         name: "Billy",
         species: "bream",
         location: "Lake Martin, Al",
-        length: "10 inches",
+        length: 10,
         diet: "seafood"
 
     },
@@ -14,18 +14,58 @@ const fishCollection =[
         name: "Bobert",
         species: "largemouth bass",
         location: "Lake Laveda, Al",
-        length: "16 inches",
+        length: 18,
         diet: "Billy & Karl"
+    },
+    {
+        image: "Humpback_anglerfish.png",
+        name: "Rex",
+        species: "Naughty Fish",
+        location: "Hell",
+        length: 7,
+        diet: "Nothing"
     },
     {
         image: "crappie.gif",
         name: "Karl",
         species: "crappie",
         location: "Alabama River",
-        length: "8 inches",
+        length: 6,
         diet: "minnows"
-    }
+    },
 ]
 export const useFish = () => {
     return fishCollection.slice()
 }    
+
+export const mostHolyFish = () => {
+    const holyFish = []
+
+    for (const fish of fishCollection){
+        if (fish.length % 3 === 0){
+            holyFish.push(fish)
+        }
+    }
+return holyFish
+
+}
+
+export const soldierFish = () => {
+    const soldiers = []
+    for  (const fish of fishCollection){
+        if (fish.length % 5 === 0){
+            soldiers.push(fish)
+        }
+    }
+return soldiers
+}
+
+export const nonHolyFish = () => {
+    const regularFish =[]
+    for (const fish of fishCollection){
+        if(fish.length % 5 !== 0 && fish.length % 3 !== 0){
+            regularFish.push(fish)
+        }
+    }
+    return regularFish
+}
